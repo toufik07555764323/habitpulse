@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "HabitPulse Pro \u2014 Personal Habit Tracker",
+  "name": "HabitPulse Pro — Personal Habit Tracker",
   "short_name": "HabitPulse",
-  "description": "Track JEE study, fitness, habits, goals, sessions, and streaks.",
+  "description": "Track JEE study, fitness, habits, goals, focus sessions, and streaks.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -21,6 +21,41 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start focus timer",
+      "short_name": "Focus",
+      "url": "./?focus=1",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Add a habit",
+      "short_name": "Add habit",
+      "url": "./?add=habit",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Log a session",
+      "short_name": "Log session",
+      "url": "./?add=session",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
